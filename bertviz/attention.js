@@ -354,7 +354,7 @@ function render() {
 }
 
 $("#layer").empty();
-for(var i=0; i<12; i++) {
+for(var i=0; i<24; i++) {
   $("#layer").append($("<option />").val(i).text(i));
 }
 
